@@ -1,4 +1,7 @@
 require 'sinatra'
+require 'pg'
+
+enable :inline_templates
 
 get '/' do
   '<title>No Page</title>
